@@ -1,28 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+/**
+ * Given a list of students, filter out the famale ones
+ */
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>array.filter</title>
-</head>
+function filterOutFemales(members) {
+    return members.filter(function (x) {
+        return (x.gender !== 'female');
+    });
+}
 
-<body>
-    <script>
-        function filterOutFemales(members) {
-            return members.filter(function (x) {
-                return (x.gender !== 'female');
-            });
-        }
-        let members = [
-            { name: 'Lan', gender: 'female' },
-            { name: 'Linh', gender: 'female' },
-            { name: 'Trung', gender: 'male' },
-            { name: 'Peter', gender: 'gay' }
-        ];
-        console.log(filterOutFemales(members));
-    </script>
-</body>
+let members = [
+    { name: 'Lan', gender: 'female' },
+    { name: 'Linh', gender: 'female' },
+    { name: 'Trung', gender: 'male' },
+    { name: 'Peter', gender: 'gay' }
+];
 
-</html>
+console.log(filterOutFemales(members));
