@@ -1,3 +1,8 @@
+/**
+ * npm install readline-sync --save
+ * https://www.npmjs.com/package/readline-sync
+ */
+
 let readlineSync = require('readline-sync');
 
 let languages = [];

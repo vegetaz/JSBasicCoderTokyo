@@ -4,6 +4,7 @@
  * Hãy thử học cách dùng 1 module mà bạn hiểu, tạo 1 ví dụ và giải thích về nó.
  * Sau này bạn sẽ cần phải google rất nhiều, học cách đọc tài liệu sẽ giúp cho công việc của bạn trong tương lai.
  * https://github.com/mathiasbynens/he
+ *      npm install he --save
  * Module này cung cấp phương thức để mã hoá và giải mã ký tự, thích hợp cho công việc làm web với các ngôn ngữ Latin hoặc CJK.
  */
 

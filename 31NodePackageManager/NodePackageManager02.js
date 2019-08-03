@@ -1,5 +1,6 @@
 /**
  * 1. Sử dụng module `markdown` (https://www.npmjs.com/package/markdown) để chuyển đổi đoạn text (viết bằng markdown) sau sang html
+ *      npm install markdown --save
  * 2. Tìm hiểu xem markdown là cái gì (dev nên biết về markdown)
  */
 
