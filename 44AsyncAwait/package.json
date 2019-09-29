@@ -1,0 +1,14 @@
+{
+  "name": "44asyncawait",
+  "version": "1.0.0",
+  "description": "",
+  "main": "44AsyncAwait00.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
